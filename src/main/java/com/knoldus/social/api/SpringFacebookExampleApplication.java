@@ -1,4 +1,4 @@
-package com.javatechie.social.api;
+package com.knoldus.social.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

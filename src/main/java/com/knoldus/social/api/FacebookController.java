@@ -1,4 +1,4 @@
-package com.javatechie.social.api;
+package com.knoldus.social.api;
 
 import org.springframework.social.connect.ConnectionRepository;
 import org.springframework.social.facebook.api.Facebook;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class FacebookController {
 
-	private Facebook facebook;
+	private final Facebook facebook;
 
-	private ConnectionRepository connectionRepository;
+	private final ConnectionRepository connectionRepository;
 
 
 
